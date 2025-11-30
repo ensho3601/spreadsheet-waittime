@@ -52,8 +52,8 @@
     function getColor(wait) {
       if (wait === 0) return "blue";
       if (wait < 10) return "green";
-      if (wait < 20) return "orange";
-      if (wait < 30) return "red";
+      if (wait < 30) return "orange";
+      if (wait < 50) return "red";
       return "purple";
     }
     const color = getColor(wait);
